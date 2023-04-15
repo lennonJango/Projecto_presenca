@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container_admin{
+   
+     background-color:#4398ac ;
+     padding: 70px;
+     
+}
+
+
+.sub_container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+  
+}
+
+.formulario label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+}
+
+.formulario input{
+    padding: 4px;
+}
+
+.btn_admin{
+    background-color: bisque;
+}
+
+
+
+
+.display_hidden{
+    display: none;
+    opacity: 0;
+}
