@@ -72,7 +72,7 @@ public function criarAdmin($email, $nome, $senha){
                 $idAdministrador = $sesaoSelecionada->selecionarSesao($token,$idAdmin);
                 print_r($idAdministrador);
                 setcookie($this->tabela,$token,time()+(86400*30),"/");
-                $_SESSION['adminId'] = $idAdmin;
+                 $_SESSION['adminId'] = $idAdmin;
                  $_SESSION['token'] = $token;
                 header("location:../view/ambiente_admin.php");
 
